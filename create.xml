@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="true" name="Suite">
+<parameter name="browser" value="Chrome Browser"/>
+<test name="Chrome">
+<classes>
+<class name="LumaProject.CreateAccount"/>
+</classes>
+</test>
+<test name="Opera">
+<parameter name="browser" value="Opera Browser"/>
+<classes>
+<class name="LumaProject.CreateAccount"/>
+</classes>
+</test>
+<test name="Product">
+<classes>  
+<class name="LumaProject.Products"/>
+</classes>
+</test>
+<test name="All Modules">
+<classes>
+<class name="LumaProject.AllModules"/>
+</classes>\]
+</test> <!-- Test -->
+</suite> <!-- Suite -->
